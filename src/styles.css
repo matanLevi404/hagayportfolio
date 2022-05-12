@@ -1,0 +1,65 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+  --main-green: #1abc9c;
+  --main-white: #fff;
+  --main-background: #e6e6e6;
+  --main-dark: #3a3a3a;
+  --main-dark-2: #898989;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-size: 50px;
+  overflow-x: hidden;
+  /* background-color: var(--main-background); */
+  background-color: var(--main-background);
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.main-color-background {
+  background-color: #848484;
+}
+
+.section-child {
+  width: 95vw;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-align {
+  display: flex;
+  align-items: center;
+}
+
+.center-justify {
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 50px;
+  color: var(--main-dark);
+  line-height: normal;
+  font-family: "Russo One", sans-serif;
+}
+
+.heading::after {
+  content: "";
+  display: block;
+  height: 1.5px;
+  width: 40%;
+  background-color: black;
+  margin: 0 auto;
+}

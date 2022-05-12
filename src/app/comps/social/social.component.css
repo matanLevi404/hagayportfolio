@@ -1,0 +1,62 @@
+.social {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0 auto;
+}
+
+.link-box {
+  margin: 2px;
+}
+
+.icon-box {
+  width: 39px;
+  height: 39px;
+  border: 2px solid var(--main-white);
+  border-radius: 100%;
+  position: relative;
+  text-decoration: none;
+  transform: scale(1);
+  transition: 0.4s;
+}
+
+.icon-box i {
+  color: var(--main-green);
+  transition: 0.3s;
+}
+
+.icon-box:hover {
+  box-shadow: 0px 1px 12px 5px rgba(255, 255, 255, 0.171);
+}
+
+.icon-box i {
+  font-size: 16px;
+}
+
+.icon-box:hover > i {
+  color: var(--main-white);
+}
+
+.icon-box:hover:before {
+  animation: scale-gone 0.3s forwards;
+}
+
+.icon-box::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border: 2px solid var(--main-green);
+  border-radius: 100%;
+  opacity: 1;
+}
+
+@keyframes scale-gone {
+  100% {
+    transform: scale(1.4);
+    border: 2px solid var(--main-white);
+    opacity: 0;
+  }
+} ;

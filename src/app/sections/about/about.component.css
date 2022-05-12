@@ -1,0 +1,55 @@
+.about-section {
+  width: 100%;
+}
+
+.childs {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 0 50px 0;
+}
+
+.heading {
+  padding: 100px 0 30px 0;
+}
+
+.about-child {
+  width: 25%;
+  margin: 20px;
+}
+
+.icon {
+  width: 100%;
+}
+
+.icon i {
+  padding: 15px;
+  border: 2px solid var(--main-green);
+  color: var(--main-green);
+  border-radius: 50%;
+  width: 63px;
+  height: 63px;
+  margin: 10px;
+}
+
+h3 {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-family: "Comfortaa";
+}
+
+h3::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 30%;
+  background-color: black;
+  margin: 10px auto;
+}
+
+p {
+  width: 100%;
+  text-align: center;
+  color: var(--main-dark-2);
+}

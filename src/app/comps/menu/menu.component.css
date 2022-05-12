@@ -1,0 +1,20 @@
+.menu-container {
+  margin-bottom: 20px;
+  height: 150px;
+}
+
+.menu-btn {
+  display: block;
+  width: 60px;
+  height: 59px;
+  background-color: var(--main-green);
+  border: none;
+  position: sticky;
+  top: 0;
+}
+
+.menu-btn i {
+  font-size: 38px;
+  font-weight: 600;
+  color: var(--main-white);
+}

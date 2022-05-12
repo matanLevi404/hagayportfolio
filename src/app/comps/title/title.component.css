@@ -1,0 +1,11 @@
+.title {
+  font-size: 90px;
+  min-height: auto;
+  color: var(--main-white);
+  letter-spacing: 0;
+  font-weight: 500;
+  font-family: "Libre Bodoni", serif;
+  text-align: center;
+  line-height: 85px;
+  margin-bottom: 10px;
+}
