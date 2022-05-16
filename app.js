@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static("./dist/hagay-portfolio"));
 
-app.get("*", (req, res) => {
+app.get("/*", (req, res) => {
   res.sendFile(path.join(__dirname + "/dist/hagay-portfolio/index.html"));
 });
 
