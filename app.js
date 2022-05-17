@@ -6,6 +6,9 @@ const app = express();
 
 const port = process.env.PORT || 3000;
 
+// dsadkjaslkdkwaldkalm,sdasklmdwadlawmd
+("21312");
+process.env.code;
 app.use(cors());
 app.use(express.json());
 app.use(express.static("./dist/hagay-portfolio"));
