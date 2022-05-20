@@ -2,6 +2,7 @@
 :root {
   --main-green: #1abc9c;
   --main-white: #fff;
+  --main-black: rgb(0, 0, 0);
   --main-background: #e6e6e6;
   --main-dark: #3a3a3a;
   --main-dark-2: #898989;
@@ -18,7 +19,7 @@ body {
   font-size: 50px;
   overflow-x: hidden;
   /* background-color: var(--main-background); */
-  background-color: var(--main-background);
+  /* background-color: var(--main-background); */
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 
@@ -50,7 +51,8 @@ body {
   margin: 0 auto;
   text-align: center;
   font-size: 50px;
-  color: var(--main-dark);
+  /* color: var(--main-dark); */
+  color: var(--main-white);
   line-height: normal;
   font-family: "Russo One", sans-serif;
 }
@@ -58,8 +60,24 @@ body {
 .heading::after {
   content: "";
   display: block;
-  height: 1.5px;
-  width: 40%;
-  background-color: black;
+  height: 1px;
+  width: 20%;
+  background-color: var(--main-white);
   margin: 0 auto;
 }
+
+.vimeo-gallery {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.back {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.622), rgba(0, 0, 0, 0.627)),
+    url("/assets/images/header-pic.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

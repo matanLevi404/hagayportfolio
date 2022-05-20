@@ -1,0 +1,31 @@
+.contact-me {
+  background-color: var(--main-dark);
+  color: var(--main-white);
+}
+
+.contacts {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.contacts p,
+.contacts h3 {
+  text-align: center;
+}
+
+.heading {
+  padding: 50px 0;
+}
+
+.glass {
+  width: 100%;
+  background: linear-gradient(
+    135deg,
+    rgba(79, 79, 79, 0.1),
+    rgba(225, 225, 225, 0)
+  );
+  backdrop-filter: blur(30px);
+  border: 2px solid transparent;
+  background-clip: padding-box;
+  box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.3);
+}

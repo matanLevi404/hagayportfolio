@@ -15,6 +15,11 @@ import { MyWorkComponent } from './sections/my-work/my-work.component';
 
 import { SwiperModule } from 'swiper/angular';
 import { SwiperContainerComponent } from './comps/my-work-comps/swiper-container/swiper-container.component';
+import { HighlightsComponent } from './comps/my-work-comps/highlights/highlights.component';
+import { ContactMeComponent } from './sections/contact-me/contact-me.component';
+
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -28,12 +33,16 @@ import { SwiperContainerComponent } from './comps/my-work-comps/swiper-container
     MenuComponent,
     MyWorkComponent,
     SwiperContainerComponent,
+    HighlightsComponent,
+    ContactMeComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     SwiperModule,
+    MatFormFieldModule,
+    MatInputModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
