@@ -29,3 +29,12 @@
   background-clip: padding-box;
   box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.3);
 }
+
+@media screen and (max-width: 950px) {
+}
+
+@media screen and (max-width: 450px) {
+  .contacts {
+    width: 90%;
+  }
+}
